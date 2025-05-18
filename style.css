@@ -23,14 +23,14 @@ body{
     width: 100%;
     padding: 0 20px;
     margin: 0 auto;
-    /* border: 2px solid red; */
 }
 .nav{
     padding-top: 20px;
     display: flex;
     height: 60px;
     align-items: center;
-    justify-content: space-between; 
+    justify-content: space-between;
+    /* gap: 50px;  */
     font-weight: 600;
     font-size: 20px;
     position: fixed;
@@ -49,10 +49,9 @@ body{
 }
 .logo{
     color: rgb(214, 75, 75);
+    height: 40px;
 }
-.logo img{
-    width: 300px;
-}
+
 
 .nav_links{
     display: flex;
@@ -74,7 +73,6 @@ body{
 
 /* home */
 .home_section{
-    /* border: 2px solid red; */
     padding-top: 80px;
     color: white;
     display: flex;
@@ -86,7 +84,6 @@ body{
 .home_img img{
     width: 550px;
     border-radius: 50%;
-    /* height: 500px; */
 }
 
 span{
@@ -106,7 +103,6 @@ span{
     max-width: 500px;
     width: 100%;
     font-weight: 500;
-    /* line-height: 5px; */
 }
 
 .social-icons>a{
@@ -230,15 +226,12 @@ span{
         right: 20px;
         max-width: 250px;
         width: 100%;
-        background-color:gray;
-        opacity: 0.9    ;
-        backdrop-filter: blur(50px);
         flex-direction: column;
         border-radius: 20px;
-        /* background-color: #fff; */
-        z-index: 9999;
         padding: 20px;
+        border: 2px solid orange;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        backdrop-filter: blur(20px);
     }
 }
 @media (max-width: 420px){
